@@ -79,7 +79,7 @@ class ListItem extends React.Component<Props> {
 
     return (
       <TouchableRipple style={[styles.container, style]} onPress={onPress}>
-        <View style={styles.row}>
+        <View style={styles.row} pointerEvents="none">
           {avatar || icon ? (
             <View
               style={[
