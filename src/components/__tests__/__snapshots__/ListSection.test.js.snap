@@ -78,7 +78,6 @@ exports[`renders list section with title 1`] = `
     }
   >
     <View
-      pointerEvents="none"
       style={
         Object {
           "flexDirection": "row",
@@ -124,6 +123,7 @@ exports[`renders list section with title 1`] = `
         </Text>
       </View>
       <View
+        pointerEvents="none"
         style={
           Array [
             Object {
@@ -204,7 +204,6 @@ exports[`renders list section with title 1`] = `
     }
   >
     <View
-      pointerEvents="none"
       style={
         Object {
           "flexDirection": "row",
@@ -250,6 +249,7 @@ exports[`renders list section with title 1`] = `
         </Text>
       </View>
       <View
+        pointerEvents="none"
         style={
           Array [
             Object {
@@ -344,7 +344,6 @@ exports[`renders list section without title 1`] = `
     }
   >
     <View
-      pointerEvents="none"
       style={
         Object {
           "flexDirection": "row",
@@ -390,6 +389,7 @@ exports[`renders list section without title 1`] = `
         </Text>
       </View>
       <View
+        pointerEvents="none"
         style={
           Array [
             Object {
@@ -470,7 +470,6 @@ exports[`renders list section without title 1`] = `
     }
   >
     <View
-      pointerEvents="none"
       style={
         Object {
           "flexDirection": "row",
@@ -516,6 +515,7 @@ exports[`renders list section without title 1`] = `
         </Text>
       </View>
       <View
+        pointerEvents="none"
         style={
           Array [
             Object {

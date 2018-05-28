@@ -79,7 +79,7 @@ class ListItem extends React.Component<Props> {
 
     return (
       <TouchableRipple style={[styles.container, style]} onPress={onPress}>
-        <View style={styles.row} pointerEvents="none">
+        <View style={styles.row}>
           {avatar || icon ? (
             <View
               style={[
@@ -93,7 +93,7 @@ class ListItem extends React.Component<Props> {
               )}
             </View>
           ) : null}
-          <View style={[styles.item, styles.content]}>
+          <View style={[styles.item, styles.content]} pointerEvents="none">
             <Text
               numberOfLines={1}
               style={[styles.title, { color: titleColor }]}
@@ -115,7 +115,10 @@ class ListItem extends React.Component<Props> {
             )}
           </View>
           {avatar && icon ? (
-            <View style={[styles.item, description && styles.multiline]}>
+            <View
+              style={[styles.item, description && styles.multiline]}
+              pointerEvents="none"
+            >
               <Icon name={icon} size={24} color={descriptionColor} />
             </View>
           ) : null}
