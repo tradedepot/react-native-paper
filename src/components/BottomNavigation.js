@@ -888,7 +888,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   labelContainer: {
-    height: 18,
+    height: 24,
     marginTop: 10,
     marginBottom: 5,
     paddingBottom: 4,
